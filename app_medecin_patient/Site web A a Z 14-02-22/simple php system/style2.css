@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Sidebar styles */
+  .sidebar {
+    background-color: #34495e; /* Darker blue for sidebar */
+    color: #fff;
+    width: 200px; /* Adjust sidebar width */
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+  }
+
+  .sidebar .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar .profile-image {
+    border-radius: 50%;
+    width: 120px; /* Increased profile image size */
+    height: 120px; /* Increased profile image size */
+    background-color: #fff; /* Fallback for browsers not supporting the image */
+    background-image: url('path/to/profile-image.jpg'); /* Path to profile image */
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .sidebar h3,
+  .sidebar p {
+    margin: 5px 0;
+  }
+
+  .sidebar nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sidebar nav.menu ul li {
+    margin-bottom: 10px;
+  }
+
+  .sidebar nav.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px; /* Increased padding for menu items */
+  }
+
+  .sidebar nav.menu ul li a:hover {
+    background-color: #2c3e50; /* Darker hover color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .sidebar nav.menu ul li a i {
+    margin-right: 15px; /* Increased spacing between icon and text */
+    font-size: 20px; /* Increased icon size */
+  }
+
+  /* Styles for the main content of the dashboard */
+  .main-content {
+    /* Ensure content isn't hidden by sidebar */
+    padding: 20px;
+  }
+
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  /* Styles for the statistics */
+  .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .profile-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa-user-circle {
+    font-size: 30px;
+  }
+  .sidebar {
+          background-color: #2c3e50;
+          color: #fff;
+          width: 250px;
+          padding: 20px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          overflow-y: auto;
+      }
+
+      .profile-image {
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          margin: 0 auto;
+          overflow: hidden;
+      }
+
+      .profile-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+
+      .profile-info {
+          margin-top: 20px;
+      }
+
+      .profile-info p {
+          margin-bottom: 10px;
+          font-size: 14px;
+      }
+
+      .menu ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+      }
+
+      .menu ul li {
+          margin-bottom: 10px;
+      }
+
+      .menu ul li a {
+          color: #fff;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          font-size: 16px;
+      }
+
+      .menu ul li a:hover {
+          background-color: #34495e;
+          border-radius: 5px;
+          transition: background-color 0.3s ease;
+      }
+
+      .menu ul li a i {
+          margin-right: 10px;
+      }
+      .welcome-message {
+          text-align: center;
+          font-size: 24px;
+          color: #333;
+          margin-bottom: 30px;
+      }
+
+      /* Styles pour le champ d'entrée et le lien */
+      .main-content {
+          margin-left: 220px;
+          padding: 20px;
+      }
+
+      /* Styles pour le message de bienvenue */
+      .welcome-message {
+          text-align: center;
+          font-size: 24px;
+          color: #333;
+          margin-bottom: 30px;
+      }
+
+      /* Styles pour les icônes */
+      .icon-link {
+          display: inline-block;
+          background-color: #007bff;
+          color: #fff;
+          padding: 20px;
+          border-radius: 50%;
+          text-decoration: none;
+          font-size: 24px;
+          margin-right: 30px;
+          transition: all 0.3s ease;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .icon-link:hover {
+          background-color: #0056b3;
+          transform: translateY(-3px);
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+      body {
+          font-family: 'Roboto', sans-serif;
+          background-color: #f5f5f5;
+          
+          color: #333;
+          margin: 0;
+          padding: 0;
+      }
+
+      .container {
+          width: 90%;
+
+         
+          margin:  20px;
+          padding: 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+          color: #0065e1;
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+      }
+
+      th, td {
+          border: 1px solid #ddd;
+          padding: 12px;
+          text-align: left;
+      }
+
+      th {
+          background-color: #0065e1;
+          color: white;
+          font-weight: bold;
+          text-transform: uppercase;
+      }
+
+      tbody tr:nth-child(even) {
+          background-color: #f2f2f2;
+      }
+
+      .action-buttons {
+          display: flex;
+          justify-content: center;
+      }
+      .refuse-btn{
+          background-color: red;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 8px 12px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+          margin-right: 5px;
+      }
+      .accept-btn {
+          background-color: green;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          padding: 8px 12px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+          margin-right: 5px;
+      }
+      .refuse-btn:hover{
+          background-color: red;
+      }
+      .accept-btn:hover
+       {
+          background-color: green;
+      }
+
+      p {
+          text-align: center;
+      }
+/* Ajout de styles pour le message de bienvenue */
+.welcome-message {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Ajout de styles pour les icônes d'accès au chat */
+.chat-icon {
+  color: #007bff; /* Couleur de l'icône */
+  font-size: 24px; /* Taille de l'icône */
+  margin-left: 250px; /* Marge à droite pour l'espace */
+}
+
+/* Styles pour la cloche de notification */
+.notification-bell {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
